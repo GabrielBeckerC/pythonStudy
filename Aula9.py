@@ -7,7 +7,7 @@ em outros arquivos.
 """
 
 
-from operacoesDir.Operacoes import multiplicacao, soma
+from funcDir.Operacoes import multiplicacao, soma
 
 
 multiplicacao(10,5)
