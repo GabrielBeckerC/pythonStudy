@@ -18,10 +18,14 @@ def divisao(divisor, dividendo):
 
 def exponenciacao(base, expoente = 2):
   print('exponenciacao')
-  return print(base ** expoente)
+  return base ** expoente
 
 def fatorial(a):
   if a == 0:
     return 1
   else:
     return a * fatorial(a-1)
+
+def dobrofunc(dobro):
+  print('dobro')
+  return dobro * 2
