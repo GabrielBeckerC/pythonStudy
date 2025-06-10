@@ -16,7 +16,7 @@ def divisao(divisor, dividendo):
   print('divisao')
   return print(divisor / dividendo)
 
-def exponenciacao(base, expoente):
+def exponenciacao(base, expoente = 2):
   print('exponenciacao')
   return print(base ** expoente)
 
