@@ -1,10 +1,9 @@
-
-
 class University(type):
 
     def __call__(cls, *args, **kwargs):
-        print (f'==== Estes são os argumentos:{args}')
+        print(f'==== Estes são os argumentos:{args}')
         return type.__call__(cls, *args, **kwargs)
+
 
 class Geek(metaclass=University):
 
@@ -12,6 +11,7 @@ class Geek(metaclass=University):
         self.valor1 = valor1
         self.valor2 = valor2
 
-obj = Geek(42,23)
+
+obj = Geek(42, 23)
 
 print(obj)
