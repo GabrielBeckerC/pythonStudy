@@ -67,7 +67,7 @@ class ViagemMalvinas(Viagem):
 class GeekTravel:
 
     def preparar_viagem(self):
-        opcao = input('Qual locoa de viagem? [Veneza, Malvinas]')
+        opcao = input('Qual local de viagem? [Veneza, Malvinas]')
 
         if opcao == 'Veneza':
             self.viagem = ViagemVeneza()
