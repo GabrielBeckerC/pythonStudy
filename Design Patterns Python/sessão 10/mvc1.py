@@ -1,5 +1,3 @@
-from Aula5 import produtos
-
 
 class Modelo:
 
